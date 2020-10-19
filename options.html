@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Options</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="options">
+    <h1>Project Name</h1>
+    <p>
+      This extension was developed by Phoenix for sharing artist made screensavers. You might want to include some information about your project here.
+    </p>
+    <p>
+      Using the options below, select the artist screensaver that you would like to see. You can also set the time delay
+      before the screensaver begins.
+    </p>
+    <p>
+      Once you have selected your options, if your browser is inactive for the selected time, the screensaver will
+      popup.
+    </p>
+
+<h1>Options</h1>
+    <form>
+      <fieldset class="fieldset">  
+      <label class="label">Screensaver:</label>
+        <select class="select" id="filmChoice">
+          <option value="media/idle-sample-hb.mp4">
+            Example Screensaver</option>
+        </select>
+      </fieldset>
+
+      <!-- 15 second setting is possibly tripping it up -->
+      <fieldset class="fieldset">
+        <label class="label">Time until screensaver activates:</label>
+        <select class="select" id="timer">
+          <option value="16">15 Seconds</option>
+          <option value="30">30 Seconds</option>
+          <option value="60">1 Minute</option>
+          <option value="120">2 Minutes</option>
+          <option value="300">5 Minutes</option>
+        </select>
+      </fieldset>
+
+      <button class="button" id="save">Save</button>
+
+      <div class="status" id="status"></div>
+    </form>
+   
+  </div>
+
+  <script src="options.js"></script>
+
+</body>
+
+</html>
