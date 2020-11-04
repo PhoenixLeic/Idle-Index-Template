@@ -1,5 +1,11 @@
 # Idle Index Template
-A chrome extension for displaying artist screensavers.
+
+TL;DR
+Popup.html displays the screensaver.
+Options.html is accessed for adjusting the user preferences.
+
+# About
+A Google Chrome extension for displaying artist screensavers.
 
 We recognise there is a wider interest in the use of screensavers as a space for creative artistic expression and investigation.
 
@@ -13,7 +19,8 @@ The repository here includes a template version that you can populate and publis
 
 To download the Phoenix Idle Index extension visit, https://www.phoenix.org.uk/event/the-idle-index/
 
-Instructions for use:
+# How to use this template
+Guidelines for use:
 * Download the project
 * Load as unpacked in Chrome extensions
 * Add media to the media folder
@@ -22,10 +29,7 @@ Instructions for use:
 * Alternatively link to a glitch page to enable an iframe instead of default video popup
 * Update manifest.json
 * Publish to Chrome store
-* Creating Firefox clone
 
-TL;DR
-Popup.html displays the screensaver.
-Options.html is accessed for adjusting the user preferences.
+
 
 Phoenix is supported by Arts Council England
