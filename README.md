@@ -21,14 +21,36 @@ To download the Phoenix Idle Index extension visit, https://www.phoenix.org.uk/e
 
 # How to use this template
 Guidelines for use:
-* Download the project
-* Load as unpacked in Chrome extensions
-* Add media to the media folder
+* Download or Fork the project
+    * If you are using a lot of media files it is probably easier to store these locally.
+* Load the project into Chrome.
+    * Go to Window>Extensions
+    * Choose Load Unpacked and toggle the extension to On.
+    * Open up the extension options using the Extensions icon in the toolbar.
+    * Choose some settings and test the template functions as expected.
 * Update links in Options.html
+    * You should replace the links in Options.html to match your content.
 * Update info sections
+    * Include any information about your project in the Options.html page or the Popup.html page.
+* Add media to the media folder
+    * If providing media directly to the user place this in the media folder.
 * Alternatively link to a glitch page to enable an iframe instead of default video popup
+    * In this template we have included code to enable an embedded Glitch page instead of local media.
+    * You'll find this in the helpers.js file.
+    * If you're not using this, feel free to comment it out.
+    * This is also the place to expand capabilities for other streaming options if needed.
 * Update manifest.json
+    * Refer to Chrome documentation on Manifest requirements
+    * Choose a low version number
+    * Make sure any permissions are declared
+    * Ensure scripts are linked
+    * Make sure icons are correctly linked
 * Publish to Chrome store
+    * Compress your extension folder.
+    * This can be shared directly to other users.
+    * You can also publish to the Chrome web store for easier distribution.
+    * You will have to pay a one-time developer fee.
+    * You will be required to populate a store page and provide a privacy policy.
 
 
 
