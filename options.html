@@ -26,13 +26,14 @@
     <form>
       <fieldset class="fieldset">  
       <label class="label">Screensaver:</label>
-        <select class="select" id="filmChoice">
+         <select class="select" id="filmChoice">
+         <!-- Include your screensaver options here. Copy the whole option element as needed, and update the link address as well as the title -->
           <option value="media/idle-sample-hb.mp4">
             Example Screensaver</option>
         </select>
       </fieldset>
 
-      <!-- 15 second setting is possibly tripping it up -->
+      <!-- 15 seconds option is sometimes useful for testing, but seems unreliable -->
       <fieldset class="fieldset">
         <label class="label">Time until screensaver activates:</label>
         <select class="select" id="timer">
@@ -41,6 +42,7 @@
           <option value="60">1 Minute</option>
           <option value="120">2 Minutes</option>
           <option value="300">5 Minutes</option>
+          <option value="600">10 Minutes</option>
         </select>
       </fieldset>
 
