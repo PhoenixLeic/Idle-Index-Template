@@ -20,6 +20,8 @@ The repository here includes a template version that you can populate and publis
 To download the Phoenix Idle Index extension visit, https://www.phoenix.org.uk/event/the-idle-index/
 
 # How to use this template
+If you are building an extension for the first time you might find it useful to look up Google Chrome Extensions Get Started guide, https://developer.chrome.com/extensions/getstarted.
+
 Guidelines for use:
 * Download or Fork the project
     * If you are using a lot of media files it is probably easier to store these locally.
@@ -54,4 +56,4 @@ Guidelines for use:
 
 
 
-Phoenix is supported by Arts Council England
+## Phoenix is supported by Arts Council England
