@@ -4,7 +4,6 @@
   "description": "An artist screensaver deployment project by Phoenix",
   "permissions": [
     "idle",
-    "declarativeContent",
     "storage"
   ],
   "background": {
