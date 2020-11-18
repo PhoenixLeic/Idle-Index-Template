@@ -39,6 +39,10 @@ function onInfoClicked() {
   showInfo()
 }
 
+function onCloseWindowClicked() {
+  window.close()
+}
+
 function onBackgroundClicked() {
   hideInfo()
 }
@@ -58,6 +62,7 @@ function hideInfo() {
 
 function createEventListeners() {
   document.querySelector('.information-button').addEventListener('click', onInfoClicked)
+  document.querySelector('.close-button').addEventListener('click', onCloseWindowClicked)
   document.querySelector('.overlay-background').addEventListener('click', onBackgroundClicked)
   document.querySelector('.overlay-close').addEventListener('click', onCloseClicked)
 }
